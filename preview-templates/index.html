@@ -1,0 +1,32 @@
+
+<html>
+<head>
+  <link rel="icon" href="app/editor/static/preview-templates/favicon.ico"></link>
+  <meta charset="utf-8">
+  <title>Land Map Viewer-NFT Castle Defense</title>
+  <link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+<body>
+  <canvas id="GameCanvas" oncontextmenu="event.preventDefault()" tabindex="0"></canvas>
+  <div id="splash">
+    <div class="progress-bar stripes">
+      <span style="width: 0%"></span>
+    </div>
+  </div>
+<script src="settings.js" charset="utf-8"></script>
+<script src="boot.js" charset="utf-8"></script>
+<script src="https://cdn.socket.io/4.7.2/socket.io.min.js" integrity="sha384-mZLF4UVrpi/QTWPA7BjNPEnkIfRFn4ZEO3Qt/HFklTJBj/gBOV8G3HcKn4NfQblz" crossorigin="anonymous"></script>
+<script src="app/engine/bin/<%=cocos2d%>" charset="utf-8"></script>
+<script src="preview-scripts/__quick_compile__.js" charset="utf-8"></script>
+<script src="/jquery-2.1.1.min.js" charset="utf-8"></script>
+<script type="text/javascript" src="puzzle-captcha.js"></script>
+<script src="vconsole.min.js"></script>
+<script src="api.js"></script>
+<script>
+  $(document).ready(function() {
+    uiloader.init();
+            
+        })
+</script>
+</body>
+</html>
